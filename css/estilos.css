@@ -1,0 +1,115 @@
+
+/*  Inicio de menu navegacion*/
+nav.inicio{
+    display: flex;
+     justify-content: center;}
+
+ul{list-style: none;
+    }
+
+li.dos{background-color: rgb(172, 172, 2);
+    float: left;
+    margin: 10px;padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 1px rgba(237, 241, 0, 0.85); 
+    }
+
+a{text-decoration:none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;}
+
+div.fondo:hover{background-color: rgb(252, 235, 4);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 1px rgb(156, 154, 0);
+    opacity: 0.9;}
+
+/*  Fin de menu navegacion*/
+
+/*  Inicio estilo de letra*/
+header.pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    .tiny5-regular {
+        font-family: "Tiny5", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+/*  Fin estilo de letra*/
+
+/*  Inicio estilo body*/
+
+span.estrella{justify-content:right;     display: flex; font-size: 30px;
+    margin: 15px;color: black;}
+
+body{background-image: url('../img/drake.png');background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+    min-height: 100vh;}
+
+ div.contenedor:hover{background-image:url('../img/draken.gif');border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px 1px rgb(138, 153, 0);
+    background-repeat: no-repeat;
+    background-size: cover;background-position: center center;background-attachment: fixed;
+    color: white;padding-bottom: 20px;margin-bottom: 20px;
+    padding-left: 45px;}
+
+ div.hello:hover{background-image: url('../img/drakenn.gif');
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 10px 1px rgb(165, 165, 0);
+    background-repeat: no-repeat;background-size:initial;background-position: center center;background-attachment: fixed;padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    background-size: 1300px 600px;}
+
+ /* Fin estilo body*/
+
+ /*  Inicio estilo footer*/
+
+div.ultimo{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid white; border-radius: 20px;}
+
+p.final{background-color: white; border-radius: 20px;
+    font-size: 1.5em;}
+
+/*  Fin estilo body*/
+
+/*  Estilo del boton de audio*/
+button {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: crosshair;width: 100px;height: 50px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+button.botoneditado{
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: crosshair;width: 100px;height: 50px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+
+section{background-color: rgb(209, 199, 199);margin-left: 20px;
+margin-right: 20px;
+padding-left: 20px;
+background-image: url('../img/drake.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center center;}

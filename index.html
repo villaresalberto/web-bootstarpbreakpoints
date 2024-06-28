@@ -3,24 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba sincronizacion</title>
-</head>
-<body>
-    <h1>Hola piñas</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio suscipit optio ipsa eum vero accusantium dignissimos esse eveniet nulla laudantium ducimus, voluptate ratione repudiandae quas, deleniti ipsam aspernatur corporis! Amet?</p>
+    <title>Ejercicios CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            pati  mi cola
-          </div>
-          <div class="col">
-            Column
-          </div>
-          <div class="col">
-            Column
-          </div>
-        </div>
-      </div>
+</head>
+<!--Inicio Menu Navegación-->
+<div class="fondo">
+<body class="tiny5-regular">
+    <header class="pacifico-regular">
+        <nav class="inicio">
+            <ul>
+               <li class="dos"><a href="">INICIO</a></li>
+               <li class="dos"><a href="">SERVICIOS</a></li>
+               <li class="dos"><a href="">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<!--Final Menu Navegación-->
+    <button class="botoneditado" id="play-button">Haz clic mi rey</button>
+<!--Inicio de la primera caja-->
+
+
+    <div class="contenedor">
+
+        <a href="#final" title="Pito Negro" alt="Pito Negro"><span class="material-symbols-outlined estrella">
+            star
+            </span></a> 
+
+        <h1>Caracola</h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero et hic consequuntur aperiam! Aliquam debitis quis, maiores unde ratione esse suscipit modi quo, beatae voluptatibus sint culpa fugit ducimus!</p>
+    
+        <h1>Caracola 2</h1>
+
+    
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero et hic consequuntur aperiam! Aliquam debitis quis, maiores unde ratione esse suscipit modi quo, beatae voluptatibus sint culpa fugit ducimus!</p>
+
+        <h1>Caracola 3</h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero et hic consequuntur aperiam! Aliquam debitis quis, maiores unde ratione esse suscipit modi quo, beatae voluptatibus sint culpa fugit ducimus!</p>
+
+    </div>
+
+<!--Final de la Primera caja-->
+
+<!--Inicio de la segunda caja-->
+    <div class="hello">
+
+       <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcB_Z_scGXs3eTztXyHRyLVcIjGiW3kJXkZYcsi-oczGxwOqHiOgFhF7UG3VZ6BrcGcdZNdZknuysAlcSZlKQr6O1UWpQraa5qqX5WymdReIBBez4Fbp6wu6TBGi_04HBqxHRWKHjFvK9C/w1200-h630-p-k-no-nu/1+OG0A8331+Pito+Negro+LR.jpg" target="_blank" title="Pito Negro"><span class="material-symbols-outlined estrella">
+            star
+            </span></a> 
+
+        <h2>Contacto</h2>
+
+		<nav>
+
+	<ul class="dos">
+
+		<li><label>Nombre</label>
+		<input type="text" placeholder="Escribe aqui su nombre"></li>
+<br>
+		<li><label>Apellidos</label>
+		<input type="text" placeholder="Escribe aqui sus apellidos"></li>
+<br>
+		<li><label>Email</label>
+		<input type="email" placeholder="Escribe aqui su Email"></li>
+
+<br>
+		<label>MENSAJE</label>
+		<textarea cols="50" rows="15"placeholder="Asoplale"></textarea>
+
+		<input type="submit"  value="Enviar">
+	</ul>
+</nav>
+
+    </div>
+    <!--Fin de la segunda caja-->
+</section>
+    <!--Inicio pie de página-->
+    <footer>
+
+    <div class="ultimo">
+
+        
+
+        <p class="final">Diseñado por Alberto Alberjón Cabrera</p>
+
+    
+        <span id="final">
+
+        <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+            <img src="img/ing22.png" alt="Instagram" width="30px">
+        </a>
+
+        <a href="https://www.tiktok.com/?lang=es" target="_blank" title="Instagram">
+            <img src="img/tiktok22.png" alt="Instagram" width="30px">
+        </a>
+                
+        <a href="https://www.linkedin.com/" target="_blank" title="Instagram">
+                <img src="img/link22.png" alt="Instagram" width="30px">
+        </a>
+
+        </span>
+
+    </div>
+            
+    </footer>
+    <!--Final pie de página-->
+
+   
+    <!-- Botón para iniciar el audio -->
+    <button id="play-buttonn">Haz clic mi rey</button>
+
+    <!-- Audio que se reproducirá cuando se haga clic en el botón -->
+    <audio id="background-audio" loop>
+        <source src="audio/pim.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    <!-- script de anidamiento a js. -->
+
+    <script src="script.js"></script>
 </body>
 </html>
